@@ -52,11 +52,16 @@ The model:
 ---
 
 ## Results
-The system successfully detected anomalies in:
-- Vibration signals (mechanical faults)
-- Temperature signals (thermal faults)
 
-These results demonstrate the effectiveness of machine learning in predictive maintenance applications.
+### Vibration Anomaly Detection
+![Vibration](results/vibration_plot.png)
+
+The model detects abnormal vibration spikes indicating mechanical faults.
+
+### Temperature Anomaly Detection
+![Temperature](results/temperature_plot.png)
+
+Temperature anomalies indicate overheating conditions in turbine operation.
 
 ---
 
@@ -70,3 +75,22 @@ These results demonstrate the effectiveness of machine learning in predictive ma
 ---
 
 ## Project Structure
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+python src/wind_monitoring.py
+
+
+## Research Report
+Full technical report available here:
+[Download PDF](report/Wind_Turbine_Monitoring_Report.pdf)
+
+
+## Future Work
+- Apply model to real SCADA datasets
+- Improve anomaly detection using deep learning (LSTM)
+- Deploy real-time monitoring system
+
+
