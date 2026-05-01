@@ -56,7 +56,7 @@ These results demonstrate the effectiveness of machine learning in predictive ma
 ---
 
 ## Tools & Technologies
-- Python
+- Python/Pycharm
 - NumPy
 - Pandas
 - Matplotlib
