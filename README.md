@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # AI-Based Wind Turbine Condition Monitoring Using Machine Learning
 
 ## Overview
